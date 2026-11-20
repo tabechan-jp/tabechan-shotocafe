@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>松涛カフェ｜神泉駅のカフェ・高さ14cmの松涛ロールとバタートーストシフォン</title>
+<meta name="description" content="渋谷区松涛のカフェ「松涛カフェ（SHOTO CAFE）」。看板は創業以来の松涛ケーキバタートーストと、卵白生地で巻いた高さ14cmの松涛ロール。神泉駅から徒歩約5分、松涛の住宅街の小さなカフェです。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "CafeOrCoffeeShop",
+"name": "松涛カフェ",
+"alternateName": "SHOTO CAFE",
+"address": {
+"@type": "PostalAddress",
+"postalCode": "150-0046",
+"addressRegion": "東京都",
+"addressLocality": "渋谷区",
+"streetAddress": "松涛1-29-24"
+},
+"telephone": "03-5784-1566",
+"openingHours": ["Tu-Su 11:00-18:00"],
+"priceRange": "¥1,000〜¥1,999",
+"servesCuisine": "カフェ・スイーツ",
+"aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "557"}
+}
+</script>
+<style>
+:root{
+--bg:#FBF7EF;
+--surface:#FFFFFF;
+--ink:#3B2C20;
+--ink-soft:#6E5B49;
+--accent:#B97F2E;
+--accent-deep:#8F5F1D;
+--cream:#F3E8D3;
+--line:#E7DAC3;
+--shadow:0 10px 30px rgba(59,44,32,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+font-family:"Zen Kaku Gothic New",sans-serif;
+background:var(--bg);
+color:var(--ink);
+font-size:16px;
+line-height:1.8;
+padding-bottom:76px;
+}
+img{display:block;max-width:100%;}
+a{color:inherit;}
+.sample-band{
+position:fixed;top:0;left:0;right:0;z-index:60;
+background:#3B2C20;color:#FBF7EF;
+font-size:12px;letter-spacing:.08em;text-align:center;
+padding:6px 10px;
+}
+.watermark{
+position:fixed;inset:0;z-index:55;pointer-events:none;overflow:hidden;
+}
+.watermark span{
+position:absolute;top:46%;left:50%;
+transform:translate(-50%,-50%) rotate(-24deg);
+font-family:"Shippori Mincho",serif;font-weight:700;
+font-size:26vw;letter-spacing:.1em;
+color:rgba(59,44,32,.045);white-space:nowrap;
+}
+header.site-header{
+position:sticky;top:30px;z-index:50;
+background:rgba(251,247,239,.94);backdrop-filter:blur(6px);
+border-bottom:1px solid var(--line);
+display:flex;align-items:center;justify-content:space-between;
+padding:10px 16px;
+}
+.logo{font-family:"Shippori Mincho",serif;font-weight:700;font-size:20px;letter-spacing:.12em;line-height:1.2;}
+.logo small{display:block;font-family:"Zen Kaku Gothic New",sans-serif;font-size:10px;letter-spacing:.34em;color:var(--ink-soft);font-weight:500;}
+.header-tel{
+display:inline-flex;align-items:center;gap:6px;
+background:var(--accent);color:#fff;text-decoration:none;
+font-weight:700;font-size:14px;border-radius:999px;padding:8px 14px;
+}
+main{max-width:960px;margin:0 auto;}
+.hero{position:relative;}
+.hero img{width:100%;height:62vh;min-height:380px;object-fit:cover;}
+.hero::after{
+content:"";position:absolute;inset:0;
+background:linear-gradient(180deg,rgba(43,30,18,.06) 40%,rgba(43,30,18,.55));
+}
+.hero-text{
+position:absolute;left:0;right:0;bottom:0;z-index:2;
+padding:22px 20px 20px;color:#FFF9EF;
+}
+.hero-text.area{font-size:13px;letter-spacing:.22em;font-weight:700;}
+.hero-text h1{
+font-family:"Shippori Mincho",serif;font-weight:700;
+font-size:29px;line-height:1.45;letter-spacing:.04em;margin-top:6px;
+text-shadow:0 2px 12px rgba(43,30,18,.45);
+}
+.hero-text p{font-size:14px;margin-top:6px;text-shadow:0 1px 8px rgba(43,30,18,.5);}
+.photo-note{font-size:11px;color:var(--ink-soft);padding:6px 20px 0;text-align:right;}
+.badges{
+display:flex;gap:8px;flex-wrap:wrap;
+padding:14px 20px 2px;
+}
+.badge{
+background:var(--surface);border:1px solid var(--line);border-radius:999px;
+font-size:12.5px;font-weight:700;padding:6px 12px;box-shadow:var(--shadow);
+}
+.badge b{color:var(--accent-deep);}
+.status-line{
+margin:12px 20px 0;background:var(--cream);border-radius:12px;
+padding:10px 14px;font-size:14.5px;font-weight:700;
+display:flex;align-items:center;gap:8px;
+}
+.status-dot{width:10px;height:10px;border-radius:50%;background:#B0A58F;flex:none;}
+.status-dot.open{background:#3E9B4F;}
+.status-dot.closed{background:#B0483E;}
+section{padding:38px 20px 6px;}
+.sec-head{margin-bottom:18px;}
+.sec-head.en{font-size:11px;letter-spacing:.34em;color:var(--accent-deep);font-weight:700;}
+.sec-head h2{
+font-family:"Shippori Mincho",serif;font-size:24px;font-weight:700;
+letter-spacing:.05em;line-height:1.5;margin-top:2px;
+}
+.sec-head p{font-size:14px;color:var(--ink-soft);margin-top:6px;}
+.numbers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+.num-card{
+background:var(--surface);border:1px solid var(--line);border-radius:14px;
+text-align:center;padding:16px 6px 12px;box-shadow:var(--shadow);
+}
+.num-card.num{font-family:"Shippori Mincho",serif;font-size:27px;font-weight:700;color:var(--accent-deep);line-height:1.2;}
+.num-card.num small{font-size:14px;}
+.num-card.label{font-size:11.5px;color:var(--ink-soft);margin-top:4px;line-height:1.5;}
+.reasons{display:grid;gap:14px;}
+.reason{
+background:var(--surface);border:1px solid var(--line);border-radius:16px;
+padding:18px;box-shadow:var(--shadow);
+}
+.reason.r-num{
+font-family:"Shippori Mincho",serif;color:var(--accent);
+font-size:13px;letter-spacing:.28em;font-weight:700;
+}
+.reason h3{font-family:"Shippori Mincho",serif;font-size:18.5px;margin:4px 0 6px;line-height:1.55;}
+.reason p{font-size:14.5px;color:var(--ink-soft);}
+.menu-cards{display:grid;gap:20px;}
+.menu-card{
+background:var(--surface);border-radius:18px;overflow:hidden;
+border:1px solid var(--line);box-shadow:var(--shadow);
+}
+.menu-card img{width:100%;height:230px;object-fit:cover;}
+.menu-card.body{padding:16px 18px 18px;}
+.menu-card.tag{
+display:inline-block;background:var(--accent);color:#fff;
+font-size:11px;font-weight:700;letter-spacing:.1em;
+border-radius:999px;padding:3px 10px;margin-bottom:8px;
+}
+.menu-card.tag.sub{background:var(--cream);color:var(--accent-deep);}
+.menu-card h3{font-family:"Shippori Mincho",serif;font-size:20px;line-height:1.5;}
+.menu-card p{font-size:14.5px;color:var(--ink-soft);margin-top:6px;}
+.menu-card.price{
+font-family:"Shippori Mincho",serif;font-size:21px;font-weight:700;
+color:var(--accent-deep);margin-top:10px;
+}
+.menu-card.price small{font-size:12.5px;color:var(--ink-soft);font-family:"Zen Kaku Gothic New",sans-serif;font-weight:500;}
+.img-note{font-size:11px;color:var(--ink-soft);margin-top:6px;}
+table.menu-table{width:100%;border-collapse:collapse;background:var(--surface);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);}
+table.menu-table th,table.menu-table td{padding:11px 14px;font-size:14.5px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+table.menu-table th{background:var(--cream);font-family:"Shippori Mincho",serif;font-size:15px;letter-spacing:.06em;}
+table.menu-table td.price-cell{text-align:right;white-space:nowrap;font-weight:700;color:var(--accent-deep);}
+table.menu-table tr:last-child td{border-bottom:none;}
+.menu-notes{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+.takeout-banner{
+background:linear-gradient(120deg,#8F5F1D,#B97F2E);color:#FFF6E6;
+border-radius:16px;padding:18px;box-shadow:var(--shadow);
+}
+.takeout-banner h3{font-family:"Shippori Mincho",serif;font-size:18.5px;line-height:1.55;}
+.takeout-banner p{font-size:14px;margin-top:6px;}
+.guide-list{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px 18px;box-shadow:var(--shadow);}
+.guide-list li{list-style:none;padding:11px 0;border-bottom:1px dashed var(--line);font-size:14.5px;}
+.guide-list li:last-child{border-bottom:none;}
+.guide-list b{color:var(--accent-deep);}
+.news-list{display:grid;gap:10px;}
+.news-item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:13px 16px;box-shadow:var(--shadow);font-size:14.5px;}
+.news-item time{font-weight:700;color:var(--accent-deep);font-size:13px;letter-spacing:.06em;}
+.news-item p{margin-top:2px;}
+.ig-box{
+background:var(--surface);border:1px solid var(--line);border-radius:18px;
+padding:20px;text-align:center;box-shadow:var(--shadow);
+}
+.ig-box h3{font-family:"Shippori Mincho",serif;font-size:19px;line-height:1.55;}
+.ig-box p{font-size:14px;color:var(--ink-soft);margin-top:6px;}
+.ig-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0;}
+.ig-gallery img{width:100%;height:96px;object-fit:cover;border-radius:10px;}
+.ig-btn{
+display:inline-block;background:var(--ink);color:#FFF9EF;text-decoration:none;
+font-weight:700;font-size:15px;border-radius:999px;padding:12px 26px;
+}
+.interior-img{border-radius:18px;overflow:hidden;box-shadow:var(--shadow);margin-top:4px;}
+.interior-img img{width:100%;height:240px;object-fit:cover;}
+.info-table{width:100%;border-collapse:collapse;background:var(--surface);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);}
+.info-table th,.info-table td{padding:12px 14px;font-size:14.5px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+.info-table th{width:32%;background:var(--cream);font-weight:700;white-space:nowrap;}
+.info-table tr:last-child th,.info-table tr:last-child td{border-bottom:none;}
+.info-table a{color:var(--accent-deep);font-weight:700;}
+.map-wrap{margin-top:14px;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);}
+.map-wrap iframe{width:100%;height:260px;border:0;display:block;}
+.credit{font-size:11.5px;color:var(--ink-soft);margin-top:12px;}
+footer{
+margin-top:44px;background:#3B2C20;color:#F3E8D3;
+padding:30px 20px 34px;text-align:center;
+}
+footer.f-name{font-family:"Shippori Mincho",serif;font-size:20px;letter-spacing:.12em;}
+footer p{font-size:13px;margin-top:8px;line-height:1.9;}
+footer a{color:#F3C97B;}
+.action-bar{
+position:fixed;left:0;right:0;bottom:0;z-index:60;
+background:rgba(255,255,255,.97);border-top:1px solid var(--line);
+display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;
+padding:9px 10px calc(9px + env(safe-area-inset-bottom));
+}
+.action-bar a{
+display:flex;align-items:center;justify-content:center;gap:6px;
+text-decoration:none;font-weight:700;font-size:14.5px;
+border-radius:12px;padding:13px 4px;min-height:50px;
+}
+.action-bar.call{background:var(--accent);color:#fff;}
+.action-bar.route{background:var(--cream);color:var(--ink);}
+.action-bar.ig{background:var(--ink);color:#FFF9EF;}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity.7s ease,transform.7s ease;}
+.reveal.on{opacity:1;transform:none;}
+@media (min-width:720px){
+.hero-text h1{font-size:36px;}
+.reasons{grid-template-columns:repeat(3,1fr);}
+.menu-cards{grid-template-columns:repeat(3,1fr);}
+.menu-card img{height:180px;}
+.numbers{grid-template-columns:repeat(4,1fr);}
+}
+@media (max-width:420px){
+.numbers{grid-template-columns:repeat(2,1fr);}
+}
+</style>
+</head>
+<body>
+
+<div class="sample-band">これはサンプルです。無断使用は禁止しています</div>
+<div class="watermark" aria-hidden="true"><span>SAMPLE</span></div>
+
+<header class="site-header">
+<div class="logo">松涛カフェ<small>SHOTO CAFE</small></div>
+<a class="header-tel" href="tel:0357841566">☎ 03-5784-1566</a>
+</header>
+
+<main>
+<!-- ヒーロー -->
+<div class="hero">
+<img src="hero.webp" alt="松涛ケーキバタートースト ホイップ付きと紅茶（実写真）">
+<div class="hero-text">
+<div class="area">渋谷・松涛 ／ 神泉駅 徒歩約5分</div>
+<h1>ふわふわシフォンを焼く、<br>創業以来の看板バタートースト。</h1>
+<p>松涛の住宅街に佇む、21席の小さなケーキカフェ。</p>
+</div>
+</div>
+<div class="photo-note">※トップ写真は実際の提供品を撮影した実写真です（出典はページ下部に記載）</div>
+
+<div class="badges">
+<span class="badge">Google口コミ <b>557件・★4.6</b></span>
+<span class="badge">高さ<b>14cm</b>の松涛ロール</span>
+<span class="badge">ねとらぼ調査「渋谷区で人気のケーキ」<b>1位</b>（2024年3月・Googleクチコミ調べ）</span>
+</div>
+
+<div class="status-line"><span class="status-dot" id="statusDot"></span><span id="statusText">本日の営業情報を確認しています…</span></div>
+
+<!-- 数字カード -->
+<section>
+<div class="numbers reveal">
+<div class="num-card"><div class="num">★4.6</div><div class="label">Google評価</div></div>
+<div class="num-card"><div class="num">557<small>件</small></div><div class="label">Google口コミ</div></div>
+<div class="num-card"><div class="num">14<small>cm</small></div><div class="label">松涛ロール<br>Lサイズの高さ</div></div>
+<div class="num-card"><div class="num">21<small>席</small></div><div class="label">小さな店内<br>（カウンター席あり）</div></div>
+</div>
+</section>
+
+<!-- 選ばれる理由 -->
+<section>
+<div class="sec-head reveal">
+<div class="en">OUR PROMISE</div>
+<h2>松涛カフェの、3つのこだわり</h2>
+</div>
+<div class="reasons">
+<div class="reason reveal">
+<div class="r-num">01</div>
+<h3>厳選した素材で、毎日焼く</h3>
+<p>北海道産の無漂白小麦粉、産まれ立ての赤玉卵、グレープシードオイル。高級な良質素材を厳選して、こだわって作り続けてきました（店頭メニューより）。</p>
+</div>
+<div class="reason reveal">
+<div class="r-num">02</div>
+<h3>卵白の力だけで焼く、ロール生地</h3>
+<p>松涛ロールは、卵白の力だけでふわふわ・しっとりと焼き上げた生地で、北海道の純正生クリームを巻いた一品。糖度はしつこくない甘さに調節しています。</p>
+</div>
+<div class="reason reveal">
+<div class="r-num">03</div>
+<h3>創業以来変わらない、看板の味</h3>
+<p>シフォンケーキをバターで焼いた「松涛ケーキバタートースト」は、創業より変わらない人気の看板メニュー。塩味がクセになる、甘しょっぱいケーキです。</p>
+</div>
+</div>
+</section>
+
+<!-- 看板メニュー -->
+<section>
+<div class="sec-head reveal">
+<div class="en">SIGNATURE</div>
+<h2>看板メニュー</h2>
+<p>ケーキは「そのまま」か「バタートースト」で。トッピングを足して、自分だけの一皿にもできます。</p>
+</div>
+<div class="menu-cards">
+<article class="menu-card reveal">
+<img src="toast.webp" alt="松涛ケーキバタートースト ホイップ付き（実写真）">
+<div class="body">
+<span class="tag">看板メニュー</span>
+<h3>松涛ケーキ<br>バタートースト</h3>
+<p>ふわふわのシフォンケーキをバターでこんがり焼き、ホイップをのせて。外はカリッと、中はふわふわ。塩味がクセになる甘しょっぱさです。</p>
+<div class="price">¥750 <small>ホイップ付き</small></div>
+<div class="img-note">※写真は実写真です</div>
+</div>
+</article>
+<article class="menu-card reveal">
+<img src="roll.webp" alt="高さ14cmの松涛ロール Lサイズ（イメージ）" loading="lazy">
+<div class="body">
+<span class="tag">名物</span>
+<h3>松涛ロール</h3>
+<p>卵白生地で北海道の純正生クリームを巻いたロールケーキ。高さ14cmのLサイズは、柱のような存在感。サイズはSS・S・M・Lの4種から選べます。</p>
+<div class="price">¥550〜¥1,800 <small>サイズにより</small></div>
+<div class="img-note">※写真はイメージです</div>
+</div>
+</article>
+<article class="menu-card reveal">
+<img src="half.webp" alt="松涛ケーキハーフ＆ハーフ（イメージ）" loading="lazy">
+<div class="body">
+<span class="tag sub">どっちも食べたい方に</span>
+<h3>松涛ケーキ<br>ハーフ＆ハーフ</h3>
+<p>そのままの生地とバタートースト、両方を一皿で。どちらも甲乙つけがたい、贅沢な一皿です。</p>
+<div class="price">¥750 <small>ホイップ付き</small></div>
+<div class="img-note">※写真はイメージです</div>
+</div>
+</article>
+</div>
+</section>
+
+<!-- 全メニュー -->
+<section>
+<div class="sec-head reveal">
+<div class="en">MENU</div>
+<h2>メニュー・価格</h2>
+</div>
+<table class="menu-table reveal">
+<tr><th colspan="2">SHOTO CAKE 松涛ケーキ</th></tr>
+<tr><td>松涛ケーキバタートースト（ホイップ付き）</td><td class="price-cell">¥750</td></tr>
+<tr><td>松涛ケーキハーフ＆ハーフ（ホイップ付き）</td><td class="price-cell">¥750</td></tr>
+<tr><td>松涛ケーキプレーン（ホイップ付き）</td><td class="price-cell">¥700</td></tr>
+<tr><th colspan="2">SHOTO ROLL 松涛ロール</th></tr>
+<tr><td>SSサイズ（高さ3.5cm × 幅10cm）</td><td class="price-cell">¥550</td></tr>
+<tr><td>Sサイズ（高さ4cm × 幅10cm）</td><td class="price-cell">¥700</td></tr>
+<tr><td>Mサイズ（高さ7cm × 幅10cm）</td><td class="price-cell">¥950</td></tr>
+<tr><td>Lサイズ（高さ14cm × 幅10cm）</td><td class="price-cell">¥1,800</td></tr>
+<tr><th colspan="2">セット・ドリンク</th></tr>
+<tr><td>ケーキ＋ドリンクセット</td><td class="price-cell">¥1,150</td></tr>
+<tr><td>フレッシュフルーツアイスティー</td><td class="price-cell">¥680</td></tr>
+<tr><td>アイスコーヒー</td><td class="price-cell">¥500</td></tr>
+</table>
+<p class="menu-notes reveal">
+※ホイップ抜きは各商品価格より¥50引きです。トッピングの追加もできます（ホイップ増量・バニラアイスなど）。<br>
+※ケーキ＋ドリンクセットは、日中はサービス価格¥950になる時間帯があります。<br>
+※価格は店頭メニューおよび訪問記事・口コミ情報に基づく掲載です。最新の価格は店頭でご確認ください。
+</p>
+</section>
+
+<!-- テイクアウト -->
+<section>
+<div class="takeout-banner reveal">
+<h3>テイクアウトもできます</h3>
+<p>松涛ロールや、店頭ショーケースに並ぶ気まぐれスイーツはお持ち帰りが可能。ショーケースのスイーツは、店内では各商品価格＋¥100で召し上がれます。Lサイズのロールケーキは無くなることが多いため、前日までのご予約がおすすめです。</p>
+</div>
+</section>
+
+<!-- 店内の様子 -->
+<section>
+<div class="sec-head reveal">
+<div class="en">ATMOSPHERE</div>
+<h2>松涛の住宅街の、小さな店内</h2>
+<p>白い木の家具に囲まれた、落ち着いた空間。全21席の小さな店で、ゆっくりとケーキとお茶の時間をお過ごしください。</p>
+</div>
+<div class="interior-img reveal">
+<img src="interior.webp" alt="松涛カフェの店内の様子（イメージ）" loading="lazy">
+</div>
+<div class="img-note reveal">※店内写真はイメージです</div>
+</section>
+
+<!-- 初めての方へ -->
+<section>
+<div class="sec-head reveal">
+<div class="en">GUIDE</div>
+<h2>初めての方へ</h2>
+</div>
+<ul class="guide-list reveal">
+<li><b>ワンドリンク制です</b>　お客様お一人につき、ワンドリンクのご注文をお願いしています。</li>
+<li><b>席のご予約はできません</b>　ご来店順のご案内です（ロールケーキLサイズのご予約は前日までがおすすめ）。</li>
+<li><b>売り切れ次第、終了</b>　ケーキが無くなり次第閉店となります。お目当てがある日は、お早めのご来店を。</li>
+<li><b>お支払いは現金のみ</b>　クレジットカード・電子マネーはご利用いただけません。</li>
+</ul>
+</section>
+
+<!-- お知らせ -->
+<section>
+<div class="sec-head reveal">
+<div class="en">NEWS</div>
+<h2>お知らせ</h2>
+</div>
+<div class="news-list">
+<div class="news-item reveal">
+<time>2026.11.20</time>
+<p>営業時間は11:00〜18:00（月曜定休）です。ケーキが売り切れ次第、終了となります。</p>
+</div>
+<div class="news-item reveal">
+<time>ご案内</time>
+<p>松涛ロール Lサイズ（高さ14cm）は無くなることが多いため、前日までのご予約をおすすめしています。</p>
+</div>
+<div class="news-item reveal">
+<time>ご案内</time>
+<p>日替わりの気まぐれスイーツや最新情報は、Instagramでお知らせしています。</p>
+</div>
+</div>
+</section>
+
+<!-- Instagram -->
+<section>
+<div class="ig-box reveal">
+<h3>最新情報はInstagramで</h3>
+<p>気まぐれスイーツや日々のお知らせは、公式Instagram（@shoto_cafe）で発信しています。</p>
+<div class="ig-gallery">
+<img src="toast.webp" alt="松涛ケーキバタートースト（実写真）" loading="lazy">
+<img src="roll.webp" alt="松涛ロール（イメージ）" loading="lazy">
+<img src="half.webp" alt="松涛ケーキハーフ＆ハーフ（イメージ）" loading="lazy">
+</div>
+<a class="ig-btn" href="https://www.instagram.com/shoto_cafe" target="_blank" rel="noopener">Instagramを見る</a>
+</div>
+</section>
+
+<!-- 店舗情報 -->
+<section>
+<div class="sec-head reveal">
+<div class="en">INFORMATION</div>
+<h2>店舗情報</h2>
+</div>
+<table class="info-table reveal">
+<tr><th>店名</th><td>松涛カフェ（SHOTO CAFE）</td></tr>
+<tr><th>住所</th><td>〒150-0046<br>東京都渋谷区松涛1-29-24</td></tr>
+<tr><th>アクセス</th><td>京王井の頭線「神泉駅」徒歩約5分<br>JR「渋谷駅」ハチ公口から徒歩約10分</td></tr>
+<tr><th>電話</th><td><a href="tel:0357841566">03-5784-1566</a></td></tr>
+<tr><th>営業時間</th><td>11:00〜18:00<br>※ケーキが売り切れ次第、終了</td></tr>
+<tr><th>定休日</th><td>月曜日</td></tr>
+<tr><th>席数</th><td>21席（カウンター席あり）</td></tr>
+<tr><th>駐車場</th><td>なし</td></tr>
+<tr><th>支払い</th><td>現金のみ（クレジットカード・電子マネー不可）</td></tr>
+<tr><th>予約</th><td>席の予約は不可</td></tr>
+<tr><th>Instagram</th><td><a href="https://www.instagram.com/shoto_cafe" target="_blank" rel="noopener">@shoto_cafe</a></td></tr>
+</table>
+<div class="map-wrap reveal">
+<iframe title="松涛カフェの地図" src="https://www.google.com/maps?q=%E6%9D%BE%E6%B6%9B%E3%82%AB%E3%83%95%E3%82%A7%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%9D%BE%E6%B6%9B1-29-24&output=embed" loading="lazy"></iframe>
+</div>
+<p class="credit reveal">
+バタートーストの写真は、訪問記事（note「一度は食べてほしいスイーツ＠渋谷」中山圭子さん）掲載の実写真を出典明記のうえ使用しています。その他の写真はイメージです。本番公開時は、店舗提供写真への差し替えを前提としています。
+</p>
+</section>
+</main>
+
+<footer>
+<div class="f-name">松涛カフェ</div>
+<p>
+〒150-0046 東京都渋谷区松涛1-29-24<br>
+TEL <a href="tel:0357841566">03-5784-1566</a>／11:00〜18:00（月曜定休）<br>
+Instagram <a href="https://www.instagram.com/shoto_cafe" target="_blank" rel="noopener">@shoto_cafe</a>
+</p>
+<p style="font-size:11.5px;opacity:.75;">このページは「食べちゃん」が作成したサンプルです。無断使用は禁止しています。</p>
+</footer>
+
+<nav class="action-bar">
+<a class="call" href="tel:0357841566">☎ 電話する</a>
+<a class="route" href="https://www.google.com/maps/dir/?api=1&destination=%E6%9D%BE%E6%B6%9B%E3%82%AB%E3%83%95%E3%82%A7%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%9D%BE%E6%B6%9B1-29-24" target="_blank" rel="noopener">経路案内</a>
+<a class="ig" href="https://www.instagram.com/shoto_cafe" target="_blank" rel="noopener">Instagram</a>
+</nav>
+
+<script>
+// ライブ営業ステータス（Asia/Tokyo・11:00〜18:00・月曜定休）
+(function(){
+var dot = document.getElementById('statusDot');
+var text = document.getElementById('statusText');
+try {
+var now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo'}));
+var day = now.getDay(); // 0=日 1=月
+var mins = now.getHours() * 60 + now.getMinutes();
+var open = 11 * 60, close = 18 * 60;
+if (day === 1) {
+dot.classList.add('closed');
+text.textContent = '本日は定休日です（月曜日）｜営業時間 11:00〜18:00';
+} else if (mins >= open && mins < close) {
+dot.classList.add('open');
+text.textContent = '営業中です｜本日 11:00〜18:00（売り切れ次第終了）';
+} else if (mins < open) {
+text.textContent = '本日 11:00〜18:00｜開店前です（売り切れ次第終了）';
+} else {
+dot.classList.add('closed');
+text.textContent = '本日の営業は終了しました｜営業時間 11:00〜18:00（月曜定休）';
+}
+} catch (e) {
+text.textContent = '営業時間 11:00〜18:00（月曜定休・売り切れ次第終了）';
+}
+})();
+
+// スクロール連動の出現アニメーション
+(function(){
+var els = document.querySelectorAll('.reveal');
+if (!('IntersectionObserver' in window)) {
+els.forEach(function(el){ el.classList.add('on');});
+return;
+}
+var io = new IntersectionObserver(function(entries){
+entries.forEach(function(en){
+if (en.isIntersecting) { en.target.classList.add('on'); io.unobserve(en.target);}
+});
+}, { threshold: 0.12});
+els.forEach(function(el){ io.observe(el);});
+})();
+</script>
+</body>
+</html>
